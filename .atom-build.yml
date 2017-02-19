@@ -1,0 +1,3 @@
+cmd: compile.bat {FILE_ACTIVE_NAME_BASE}
+errorMatch:
+  - "(?<file>[\\/0-9a-zA-Z\\._]+):(?<line>\\d+):(?<col>\\d+):\\s+(?<message>.+)"
